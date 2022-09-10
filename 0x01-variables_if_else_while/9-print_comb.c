@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 
 /**
  * main - Prints a series of numbers with commas
@@ -15,9 +15,9 @@ putchar(c);
 
 if (c != '9')
 {
-																	putchar(',');
-																	putchar(' ');
-																	}
+putchar(',');
+putchar(' ');
+}
 }
 
 putchar('\n');
