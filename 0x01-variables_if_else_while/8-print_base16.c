@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - lowercase and uppercase
+ * main - Prints a hexadecimal string
  *
  * Return: Always (Success)
  */
@@ -9,12 +9,12 @@ int main(void)
 {
 char c;
 
-for (c = 'a'; c <= 'z'; c++)
+for (c = '0'; c <= '9'; c++)
 {
 putchar(c);
 }
 
-for (c = 'A'; c <= 'Z'; c++)
+for (c = 'a'; c <= 'f'; c++)
 {
 putchar(c);
 }
